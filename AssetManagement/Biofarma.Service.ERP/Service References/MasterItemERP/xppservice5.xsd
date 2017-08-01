@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" />
+  <xs:complexType name="SCC_WSItemObj">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" base="q1:XppObjectBase">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ItemId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ItemName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="PriceInvent" type="xs:decimal" />
+          <xs:element minOccurs="0" name="PricePurch" type="xs:decimal" />
+          <xs:element minOccurs="0" name="PriceSales" type="xs:decimal" />
+          <xs:element minOccurs="0" name="StyleId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="StyleName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UnitInvent" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UnitPurch" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UnitSales" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SCC_WSItemObj" nillable="true" type="tns:SCC_WSItemObj" />
+  <xs:complexType name="ArrayOfSCC_WSItemObj">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="SCC_WSItemObj" nillable="true" type="tns:SCC_WSItemObj" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSCC_WSItemObj" nillable="true" type="tns:ArrayOfSCC_WSItemObj" />
+</xs:schema>

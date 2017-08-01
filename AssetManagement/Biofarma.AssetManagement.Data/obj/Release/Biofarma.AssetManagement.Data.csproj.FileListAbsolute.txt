@@ -1,0 +1,16 @@
+C:\Users\HP\documents\visual studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\Biofarma.AssetManagement.Data.dll
+C:\Users\HP\documents\visual studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\Biofarma.AssetManagement.Data.pdb
+C:\Users\HP\documents\visual studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\Biofarma.Data.dll
+C:\Users\HP\documents\visual studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\Biofarma.Framework.Entity.dll
+C:\Users\HP\documents\visual studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\Biofarma.Data.pdb
+C:\Users\HP\documents\visual studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\Biofarma.Framework.Entity.pdb
+C:\Users\HP\documents\visual studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\obj\Release\Biofarma.AssetManagement.Data.csprojResolveAssemblyReference.cache
+C:\Users\HP\documents\visual studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\obj\Release\Biofarma.AssetManagement.Data.dll
+C:\Users\HP\documents\visual studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\obj\Release\Biofarma.AssetManagement.Data.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\Microsoft.CSharp.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\System.Configuration.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\System.Data.DataSetExtensions.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\System.Data.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\System.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\System.Xml.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Data\bin\Release\System.Xml.Linq.dll

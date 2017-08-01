@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <DataSet Name="">
+    <Query>
+      <Timeout>30</Timeout>
+      <DataSourceReference>db_BIOFARMA</DataSourceReference>
+      <CommandText>/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT 
+PM.PLNNM [Nama Aset], 
+PM.MAJCD [Kode Group], 
+PM.MAJOR [Group], 
+PM.PLNTY [Kode Sub Group], 
+PM.PLTNM [Sub Group], 
+PS.ASTMS [Masa Manfaat],
+PS.MSUNT [Periode Masa Manfaat],
+PM.PLNCD [ID Alat], 
+PM.ASTNO [Nomor Aset], 
+PM.INVNO [Nomor Inventaris], 
+PM.HOLDR [NIK Pemegang], 
+PM.HOLNM [Pemegang], 
+PM.ORGCD [Kode Organisasi], 
+PM.ORGNM [Organisasi], 
+PM.LOCCD [ID Lokasi], 
+PM.LOCNM [Lokasi], 
+PM.HOWGT [Cara Perolehan], 
+PM.GETDT [Tanggal Perolehan], 
+PM.STANM [Status], 
+PM.MTBF [MTBF],
+PM.WORTH [Nilai Buku], 
+PM.CHGDT [Tanggal Modifikasi], 
+PM.CHGUS [Nama Modifikator]
+FROM  asset.PLANT_MASTER PM JOIN 
+asset.PLANT_SUBTYPE PS ON
+PM.BEGDA &lt;= GETDATE() AND PM.ENDDA &gt;= GETDATE() AND
+PS.BEGDA &lt;= GETDATE() AND PS.ENDDA &gt;= GETDATE() AND
+PM.PLNTY = PS.SUBCD</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="Nama_Aset">
+        <DataField>Nama Aset</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Kode_Group">
+        <DataField>Kode Group</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Group">
+        <DataField>Group</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Kode_Sub_Group">
+        <DataField>Kode Sub Group</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Sub_Group">
+        <DataField>Sub Group</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Masa_Manfaat">
+        <DataField>Masa Manfaat</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Periode_Masa_Manfaat">
+        <DataField>Periode Masa Manfaat</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Alat">
+        <DataField>ID Alat</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Nomor_Aset">
+        <DataField>Nomor Aset</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Nomor_Inventaris">
+        <DataField>Nomor Inventaris</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="NIK_Pemegang">
+        <DataField>NIK Pemegang</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Pemegang">
+        <DataField>Pemegang</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Kode_Organisasi">
+        <DataField>Kode Organisasi</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Organisasi">
+        <DataField>Organisasi</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ID_Lokasi">
+        <DataField>ID Lokasi</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Lokasi">
+        <DataField>Lokasi</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Cara_Perolehan">
+        <DataField>Cara Perolehan</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="Tanggal_Perolehan">
+        <DataField>Tanggal Perolehan</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="Status">
+        <DataField>Status</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="MTBF">
+        <DataField>MTBF</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="Nilai_Buku">
+        <DataField>Nilai Buku</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="Tanggal_Modifikasi">
+        <DataField>Tanggal Modifikasi</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="Nama_Modifikator">
+        <DataField>Nama Modifikator</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>

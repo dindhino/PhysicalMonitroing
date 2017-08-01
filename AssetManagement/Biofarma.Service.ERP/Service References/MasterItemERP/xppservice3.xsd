@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org" elementFormDefault="qualified" targetNamespace="http://tempuri.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?xsd=xsd1" namespace="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" />
+  <xs:element name="SCC_WSProductGetAllItemRequest">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCC_WSProductGetAllItemResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" minOccurs="0" name="response" nillable="true" type="q1:ArrayOfSCC_WSItemObj" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

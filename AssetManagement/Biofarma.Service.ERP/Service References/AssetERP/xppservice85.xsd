@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org" elementFormDefault="qualified" targetNamespace="http://tempuri.org" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/Asset/xppservice.svc?xsd=xsd1" namespace="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" />
+  <xs:element name="SCC_WSAssetServiceGetAssetDetailByNoInventarisRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_noInventaris" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCC_WSAssetServiceGetAssetDetailByNoInventarisResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" minOccurs="0" name="response" nillable="true" type="q1:ArrayOfSCC_WSAssetObj" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCC_WSAssetServiceGetAllAssetRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="fromDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCC_WSAssetServiceGetAllAssetResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" minOccurs="0" name="response" nillable="true" type="q2:ArrayOfSCC_WSAssetObj" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCC_WSAssetServiceGetAssetDetailRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_majorType" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_groupID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="_costCenter" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCC_WSAssetServiceGetAssetDetailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" minOccurs="0" name="response" nillable="true" type="q3:ArrayOfSCC_WSAssetObj" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCC_WSAssetServiceGetAssetDetailByAssetCodeRequest">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="_assetID" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="fromDate" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="toDate" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="SCC_WSAssetServiceGetAssetDetailByAssetCodeResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" minOccurs="0" name="response" nillable="true" type="q4:ArrayOfSCC_WSAssetObj" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

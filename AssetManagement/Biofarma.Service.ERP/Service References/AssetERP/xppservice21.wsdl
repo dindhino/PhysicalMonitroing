@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="http://tempuri.org" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/Asset/xppservice.svc?xsd=xsd3" namespace="http://tempuri.org" />
+      <xsd:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/Asset/xppservice.svc?xsd=xsd4" namespace="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" />
+      <xsd:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/Asset/xppservice.svc?xsd=xsd6" namespace="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" />
+      <xsd:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/Asset/xppservice.svc?xsd=xsd0" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/Asset/xppservice.svc?xsd=xsd1" namespace="http://schemas.datacontract.org/2004/07/Dynamics.Ax.Application" />
+      <xsd:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/Asset/xppservice.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.Ax.Xpp" />
+      <xsd:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/Asset/xppservice.svc?xsd=xsd5" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/Asset/xppservice.svc?xsd=xsd7" namespace="http://schemas.datacontract.org/2004/07/Microsoft.Dynamics.AX.Framework.Services" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="SCC_WSAssetServiceGetAssetDetailByNoInventarisRequest">
+    <wsdl:part name="parameters" element="tns:SCC_WSAssetServiceGetAssetDetailByNoInventarisRequest" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAssetDetailByNoInventarisRequest_Headers">
+    <wsdl:part xmlns:q1="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q1:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAssetDetailByNoInventarisResponse">
+    <wsdl:part name="parameters" element="tns:SCC_WSAssetServiceGetAssetDetailByNoInventarisResponse" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetService_getAssetDetailByNoInventaris_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q2="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q2:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAllAssetRequest">
+    <wsdl:part name="parameters" element="tns:SCC_WSAssetServiceGetAllAssetRequest" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAllAssetRequest_Headers">
+    <wsdl:part xmlns:q3="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q3:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAllAssetResponse">
+    <wsdl:part name="parameters" element="tns:SCC_WSAssetServiceGetAllAssetResponse" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetService_getAllAsset_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q4="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q4:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAssetDetailRequest">
+    <wsdl:part name="parameters" element="tns:SCC_WSAssetServiceGetAssetDetailRequest" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAssetDetailRequest_Headers">
+    <wsdl:part xmlns:q5="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q5:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAssetDetailResponse">
+    <wsdl:part name="parameters" element="tns:SCC_WSAssetServiceGetAssetDetailResponse" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetService_getAssetDetail_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q6="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q6:AifFault" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAssetDetailByAssetCodeRequest">
+    <wsdl:part name="parameters" element="tns:SCC_WSAssetServiceGetAssetDetailByAssetCodeRequest" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAssetDetailByAssetCodeRequest_Headers">
+    <wsdl:part xmlns:q7="http://schemas.microsoft.com/dynamics/2010/01/datacontracts" name="context" element="q7:CallContext" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetServiceGetAssetDetailByAssetCodeResponse">
+    <wsdl:part name="parameters" element="tns:SCC_WSAssetServiceGetAssetDetailByAssetCodeResponse" />
+  </wsdl:message>
+  <wsdl:message name="SCC_WSAssetService_getAssetDetailByAssetCode_AifFaultFault_FaultMessage">
+    <wsdl:part xmlns:q8="http://schemas.microsoft.com/dynamics/2008/01/documents/Fault" name="detail" element="q8:AifFault" />
+  </wsdl:message>
+  <wsdl:portType name="SCC_WSAssetService">
+    <wsdl:operation name="getAssetDetailByNoInventaris">
+      <wsdl:input wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAssetDetailByNoInventaris" name="SCC_WSAssetServiceGetAssetDetailByNoInventarisRequest" message="tns:SCC_WSAssetServiceGetAssetDetailByNoInventarisRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAssetDetailByNoInventarisResponse" name="SCC_WSAssetServiceGetAssetDetailByNoInventarisResponse" message="tns:SCC_WSAssetServiceGetAssetDetailByNoInventarisResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAssetDetailByNoInventarisAifFaultFault" name="AifFaultFault" message="tns:SCC_WSAssetService_getAssetDetailByNoInventaris_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAllAsset">
+      <wsdl:input wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAllAsset" name="SCC_WSAssetServiceGetAllAssetRequest" message="tns:SCC_WSAssetServiceGetAllAssetRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAllAssetResponse" name="SCC_WSAssetServiceGetAllAssetResponse" message="tns:SCC_WSAssetServiceGetAllAssetResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAllAssetAifFaultFault" name="AifFaultFault" message="tns:SCC_WSAssetService_getAllAsset_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAssetDetail">
+      <wsdl:input wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAssetDetail" name="SCC_WSAssetServiceGetAssetDetailRequest" message="tns:SCC_WSAssetServiceGetAssetDetailRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAssetDetailResponse" name="SCC_WSAssetServiceGetAssetDetailResponse" message="tns:SCC_WSAssetServiceGetAssetDetailResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAssetDetailAifFaultFault" name="AifFaultFault" message="tns:SCC_WSAssetService_getAssetDetail_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="getAssetDetailByAssetCode">
+      <wsdl:input wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAssetDetailByAssetCode" name="SCC_WSAssetServiceGetAssetDetailByAssetCodeRequest" message="tns:SCC_WSAssetServiceGetAssetDetailByAssetCodeRequest" />
+      <wsdl:output wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAssetDetailByAssetCodeResponse" name="SCC_WSAssetServiceGetAssetDetailByAssetCodeResponse" message="tns:SCC_WSAssetServiceGetAssetDetailByAssetCodeResponse" />
+      <wsdl:fault wsaw:Action="http://tempuri.org/SCC_WSAssetService/getAssetDetailByAssetCodeAifFaultFault" name="AifFaultFault" message="tns:SCC_WSAssetService_getAssetDetailByAssetCode_AifFaultFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+</wsdl:definitions>

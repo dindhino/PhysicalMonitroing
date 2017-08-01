@@ -1,0 +1,32 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\Biofarma.Service.ERP.dll.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\Biofarma.Service.ERP.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\Biofarma.Service.ERP.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\obj\Debug\Biofarma.Service.ERP.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\obj\Debug\Biofarma.Service.ERP.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\Microsoft.CSharp.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Configuration.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Data.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.ServiceModel.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Web.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Xml.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Xml.Linq.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\obj\Debug\Biofarma.Service.ERP.csprojResolveAssemblyReference.cache
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\Biofarma.Service.ERP.dll.config
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\Biofarma.Service.ERP.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\Biofarma.Service.ERP.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Configuration.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Data.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Runtime.Serialization.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.ServiceModel.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Web.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Xml.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\bin\Debug\System.Xml.Linq.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\obj\Debug\Biofarma.Service.ERP.csprojResolveAssemblyReference.cache
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\obj\Debug\Biofarma.Service.ERP.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Service.ERP\obj\Debug\Biofarma.Service.ERP.pdb

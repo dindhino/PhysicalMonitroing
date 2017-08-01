@@ -1,0 +1,11 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\bin\Debug\Biofarma.Framework.AuditTrail.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\bin\Debug\Biofarma.Framework.AuditTrail.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\obj\Debug\Biofarma.Framework.AuditTrail.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\obj\Debug\Biofarma.Framework.AuditTrail.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\bin\Debug\Microsoft.CSharp.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\bin\Debug\System.Data.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\bin\Debug\System.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\bin\Debug\System.Xml.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\bin\Debug\System.Xml.Linq.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.AuditTrail\obj\Debug\Biofarma.Framework.AuditTrail.csprojResolveAssemblyReference.cache

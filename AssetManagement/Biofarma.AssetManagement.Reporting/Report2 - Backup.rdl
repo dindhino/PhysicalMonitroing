@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="db_BIOFARMA">
+      <rd:DataSourceID>d6f12f38-3771-4dfe-ab77-b1c56da65467</rd:DataSourceID>
+      <DataSourceReference>db_BIOFARMA</DataSourceReference>
+    </DataSource>
+  </DataSources>
+  <rd:ReportID>9f2ac562-6dc5-44a7-ae2b-71f3baa7229d</rd:ReportID>
+  <Width>5in</Width>
+  <Body>
+    <Height>1.79in</Height>
+    <ColumnSpacing>0.5in</ColumnSpacing>
+    <ReportItems>
+      <Textbox Name="textbox1">
+        <Style>
+          <FontFamily>Tahoma</FontFamily>
+          <FontSize>20pt</FontSize>
+          <Color>SteelBlue</Color>
+          <FontWeight>Bold</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Value>Report2</Value>
+        <CanGrow>true</CanGrow>
+        <Height>0.37in</Height>
+      </Textbox>
+      <List Name="List1">
+        <Style>
+          <FontFamily>Tahoma</FontFamily>
+          <FontSize>14pt</FontSize>
+          <Color>SlateGray</Color>
+        </Style>
+        <ReportItems>
+          <Textbox Name="Nama_Aset">
+            <Style>
+              <FontFamily>Tahoma</FontFamily>
+              <FontSize>14pt</FontSize>
+              <Color>SlateGray</Color>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <rd:DefaultName>Nama_Aset</rd:DefaultName>
+            <Value>=Fields!Nama_Aset.Value</Value>
+            <CanGrow>true</CanGrow>
+            <Height>0.27in</Height>
+          </Textbox>
+          <List Name="List2">
+            <Style>
+              <FontFamily>Tahoma</FontFamily>
+              <FontSize>12pt</FontSize>
+            </Style>
+            <ReportItems>
+              <Textbox Name="Organisasi">
+                <Style>
+                  <FontFamily>Tahoma</FontFamily>
+                  <FontSize>12pt</FontSize>
+                  <PaddingLeft>2pt</PaddingLeft>
+                  <PaddingRight>2pt</PaddingRight>
+                  <PaddingTop>2pt</PaddingTop>
+                  <PaddingBottom>2pt</PaddingBottom>
+                </Style>
+                <rd:DefaultName>Organisasi</rd:DefaultName>
+                <Value>=Fields!Organisasi.Value</Value>
+                <CanGrow>true</CanGrow>
+                <Height>0.24in</Height>
+              </Textbox>
+              <Matrix Name="matrix1">
+                <Top>0.5in</Top>
+                <RowGroupings>
+                  <RowGrouping>
+                    <DynamicRows>
+                      <Grouping Name="matrix1_Nilai_Buku">
+                        <GroupExpressions>
+                          <GroupExpression>=Fields!Nilai_Buku.Value</GroupExpression>
+                        </GroupExpressions>
+                      </Grouping>
+                      <Sorting>
+                        <SortBy>
+                          <SortExpression>=Fields!Nilai_Buku.Value</SortExpression>
+                        </SortBy>
+                      </Sorting>
+                      <ReportItems>
+                        <Textbox Name="Nilai_Buku">
+                          <Style>
+                            <FontFamily>Tahoma</FontFamily>
+                            <FontSize>10pt</FontSize>
+                            <FontWeight>Bold</FontWeight>
+                            <Color>White</Color>
+                            <BackgroundColor>#6e9eca</BackgroundColor>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                          <rd:DefaultName>Nilai_Buku</rd:DefaultName>
+                          <Value>=Fields!Nilai_Buku.Value</Value>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.21in</Height>
+                          <Width>1in</Width>
+                        </Textbox>
+                      </ReportItems>
+                    </DynamicRows>
+                    <Width>1in</Width>
+                  </RowGrouping>
+                </RowGroupings>
+                <MatrixRows>
+                  <MatrixRow>
+                    <MatrixCells>
+                      <MatrixCell>
+                        <ReportItems>
+                          <Textbox Name="textbox2">
+                            <Style>
+                              <FontFamily>Tahoma</FontFamily>
+                              <FontSize>10pt</FontSize>
+                              <BorderStyle>
+                                <Default>Solid</Default>
+                              </BorderStyle>
+                              <BorderColor>
+                                <Default>LightGrey</Default>
+                              </BorderColor>
+                              <PaddingLeft>2pt</PaddingLeft>
+                              <PaddingRight>2pt</PaddingRight>
+                              <PaddingTop>2pt</PaddingTop>
+                              <PaddingBottom>2pt</PaddingBottom>
+                            </Style>
+                            <rd:DefaultName>textbox2</rd:DefaultName>
+                            <Value>=Sum(Fields!Masa_Manfaat.Value)</Value>
+                            <CanGrow>true</CanGrow>
+                            <Height>0.21in</Height>
+                            <Width>1in</Width>
+                          </Textbox>
+                        </ReportItems>
+                      </MatrixCell>
+                    </MatrixCells>
+                    <Height>0.21in</Height>
+                  </MatrixRow>
+                </MatrixRows>
+                <Corner>
+                  <ReportItems>
+                    <Textbox Name="textbox3">
+                      <Style>
+                        <FontFamily>Tahoma</FontFamily>
+                        <FontSize>10pt</FontSize>
+                        <BorderStyle>
+                          <Default>Solid</Default>
+                        </BorderStyle>
+                        <BorderColor>
+                          <Default>LightGrey</Default>
+                        </BorderColor>
+                        <PaddingLeft>2pt</PaddingLeft>
+                        <PaddingRight>2pt</PaddingRight>
+                        <PaddingTop>2pt</PaddingTop>
+                        <PaddingBottom>2pt</PaddingBottom>
+                      </Style>
+                      <rd:DefaultName>textbox3</rd:DefaultName>
+                      <Value>
+                      </Value>
+                      <CanGrow>true</CanGrow>
+                      <Height>0.21in</Height>
+                    </Textbox>
+                  </ReportItems>
+                </Corner>
+                <DataSetName>DataSet1</DataSetName>
+                <MatrixColumns>
+                  <MatrixColumn>
+                    <Width>1in</Width>
+                  </MatrixColumn>
+                </MatrixColumns>
+                <ColumnGroupings>
+                  <ColumnGrouping>
+                    <DynamicColumns>
+                      <Grouping Name="matrix1_Group">
+                        <GroupExpressions>
+                          <GroupExpression>=Fields!Group.Value</GroupExpression>
+                        </GroupExpressions>
+                      </Grouping>
+                      <Sorting>
+                        <SortBy>
+                          <SortExpression>=Fields!Group.Value</SortExpression>
+                        </SortBy>
+                      </Sorting>
+                      <ReportItems>
+                        <Textbox Name="Group">
+                          <Style>
+                            <FontFamily>Tahoma</FontFamily>
+                            <FontSize>10pt</FontSize>
+                            <FontWeight>Bold</FontWeight>
+                            <Color>White</Color>
+                            <BackgroundColor>#6e9eca</BackgroundColor>
+                            <BorderStyle>
+                              <Default>Solid</Default>
+                            </BorderStyle>
+                            <BorderColor>
+                              <Default>LightGrey</Default>
+                            </BorderColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                          <rd:DefaultName>Group</rd:DefaultName>
+                          <Value>=Fields!Group.Value</Value>
+                          <CanGrow>true</CanGrow>
+                          <Height>0.21in</Height>
+                          <Width>1in</Width>
+                        </Textbox>
+                      </ReportItems>
+                    </DynamicColumns>
+                    <Height>0.21in</Height>
+                  </ColumnGrouping>
+                </ColumnGroupings>
+              </Matrix>
+            </ReportItems>
+            <Grouping Name="list1_Organisasi">
+              <GroupExpressions>
+                <GroupExpression>=Fields!Organisasi.Value</GroupExpression>
+              </GroupExpressions>
+              <PageBreakAtEnd>true</PageBreakAtEnd>
+            </Grouping>
+            <Sorting>
+              <SortBy>
+                <SortExpression>=Fields!Organisasi.Value</SortExpression>
+              </SortBy>
+            </Sorting>
+            <Top>0.5in</Top>
+            <DataSetName>DataSet1</DataSetName>
+          </List>
+        </ReportItems>
+        <Grouping Name="list1_Nama_Aset">
+          <GroupExpressions>
+            <GroupExpression>=Fields!Nama_Aset.Value</GroupExpression>
+          </GroupExpressions>
+          <PageBreakAtEnd>true</PageBreakAtEnd>
+        </Grouping>
+        <Sorting>
+          <SortBy>
+            <SortExpression>=Fields!Nama_Aset.Value</SortExpression>
+          </SortBy>
+        </Sorting>
+        <Top>0.37in</Top>
+        <DataSetName>DataSet1</DataSetName>
+      </List>
+    </ReportItems>
+  </Body>
+  <Language>en-US</Language>
+  <LeftMargin>1in</LeftMargin>
+  <RightMargin>1in</RightMargin>
+  <TopMargin>1in</TopMargin>
+  <BottomMargin>1in</BottomMargin>
+  <PageWidth>8.5in</PageWidth>
+  <PageHeight>11in</PageHeight>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields>
+        <Field Name="Nama_Aset">
+          <DataField>Nama Aset</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Kode_Group">
+          <DataField>Kode Group</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Group">
+          <DataField>Group</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Kode_Sub_Group">
+          <DataField>Kode Sub Group</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Sub_Group">
+          <DataField>Sub Group</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Masa_Manfaat">
+          <DataField>Masa Manfaat</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Periode_Masa_Manfaat">
+          <DataField>Periode Masa Manfaat</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ID_Alat">
+          <DataField>ID Alat</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Nomor_Aset">
+          <DataField>Nomor Aset</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Nomor_Inventaris">
+          <DataField>Nomor Inventaris</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="NIK_Pemegang">
+          <DataField>NIK Pemegang</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Pemegang">
+          <DataField>Pemegang</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Kode_Organisasi">
+          <DataField>Kode Organisasi</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Organisasi">
+          <DataField>Organisasi</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ID_Lokasi">
+          <DataField>ID Lokasi</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Lokasi">
+          <DataField>Lokasi</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Cara_Perolehan">
+          <DataField>Cara Perolehan</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Tanggal_Perolehan">
+          <DataField>Tanggal Perolehan</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Status">
+          <DataField>Status</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="MTBF">
+          <DataField>MTBF</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="Nilai_Buku">
+          <DataField>Nilai Buku</DataField>
+          <rd:TypeName>System.Decimal</rd:TypeName>
+        </Field>
+        <Field Name="Tanggal_Modifikasi">
+          <DataField>Tanggal Modifikasi</DataField>
+          <rd:TypeName>System.DateTime</rd:TypeName>
+        </Field>
+        <Field Name="Nama_Modifikator">
+          <DataField>Nama Modifikator</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>db_BIOFARMA</DataSourceName>
+        <CommandType>Text</CommandType>
+        <CommandText>SELECT PM.PLNNM AS [Nama Aset], PM.MAJCD AS [Kode Group], PM.MAJOR AS [Group], PM.PLNTY AS [Kode Sub Group], PM.PLTNM AS [Sub Group], PS.ASTMS AS [Masa Manfaat], PS.MSUNT AS [Periode Masa Manfaat], PM.PLNCD AS [ID Alat], PM.ASTNO AS [Nomor Aset], 
+             PM.INVNO AS [Nomor Inventaris], PM.HOLDR AS [NIK Pemegang], PM.HOLNM AS Pemegang, PM.ORGCD AS [Kode Organisasi], PM.ORGNM AS Organisasi, PM.LOCCD AS [ID Lokasi], PM.LOCNM AS Lokasi, PM.HOWGT AS [Cara Perolehan], 
+             PM.GETDT AS [Tanggal Perolehan], PM.STANM AS Status, PM.MTBF, PM.WORTH AS [Nilai Buku], PM.CHGDT AS [Tanggal Modifikasi], PM.CHGUS AS [Nama Modifikator]
+FROM   asset.PLANT_MASTER AS PM INNER JOIN
+             asset.PLANT_SUBTYPE AS PS ON PM.BEGDA &lt;= GETDATE() AND PM.ENDDA &gt;= GETDATE() AND PS.BEGDA &lt;= GETDATE() AND PS.ENDDA &gt;= GETDATE() AND PM.PLNTY = PS.SUBCD</CommandText>
+        <Timeout>0</Timeout>
+      </Query>
+    </DataSet>
+  </DataSets>
+</Report>

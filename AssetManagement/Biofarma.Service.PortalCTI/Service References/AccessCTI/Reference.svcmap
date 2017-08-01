@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c4cccd6e-1faf-4118-b6ab-93b2bc5f3ed4" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://bios68.biofarma.co.id/services/security/wsappauth.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WsAppAuth.xsd" MetadataType="Schema" ID="437ed11c-8ae8-48bc-a012-099034266cf7" SourceId="1" SourceUrl="http://bios68.biofarma.co.id/services/security/WsAppAuth.svc?xsd=xsd0" />
+    <MetadataFile FileName="WsAppAuth.wsdl" MetadataType="Wsdl" ID="f5ee4dd0-6f35-4649-8f80-2a6818a95795" SourceId="1" SourceUrl="http://bios68.biofarma.co.id/services/security/WsAppAuth.svc?wsdl" />
+    <MetadataFile FileName="WsAppAuth1.xsd" MetadataType="Schema" ID="db11099f-af55-4d5e-b325-24400778b32e" SourceId="1" SourceUrl="http://bios68.biofarma.co.id/services/security/WsAppAuth.svc?xsd=xsd2" />
+    <MetadataFile FileName="WsAppAuth.disco" MetadataType="Disco" ID="97b74611-a284-4c24-b78e-25daae19031e" SourceId="1" SourceUrl="http://bios68.biofarma.co.id/services/security/WsAppAuth.svc?disco" />
+    <MetadataFile FileName="WsAppAuth2.xsd" MetadataType="Schema" ID="91a3787f-8d8d-40ab-b78a-d59ecedf544d" SourceId="1" SourceUrl="http://bios68.biofarma.co.id/services/security/WsAppAuth.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

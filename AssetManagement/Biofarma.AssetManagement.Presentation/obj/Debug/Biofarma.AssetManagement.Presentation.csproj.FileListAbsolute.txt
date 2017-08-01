@@ -1,0 +1,42 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.AssetManagement.Presentation.dll.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.AssetManagement.Presentation.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.AssetManagement.Presentation.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.AssetManagement.Data.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Data.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Framework.Entity.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Presentation.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.AssetManagement.Data.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Data.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Framework.Entity.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Presentation.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\obj\Debug\Biofarma.AssetManagement.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\obj\Debug\Biofarma.AssetManagement.Presentation.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\obj\Debug\Biofarma.AssetManagement.Presentation.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Microsoft.CSharp.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.Configuration.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.Data.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.Xml.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.Xml.Linq.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.AssetManagement.Presentation.dll.config
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.AssetManagement.Presentation.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.AssetManagement.Presentation.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.AssetManagement.Data.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Data.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Framework.Entity.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Presentation.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.Configuration.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.Data.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.Xml.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\System.Xml.Linq.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.AssetManagement.Data.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Data.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Framework.Entity.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\bin\Debug\Biofarma.Presentation.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\obj\Debug\Biofarma.AssetManagement.Presentation.csprojResolveAssemblyReference.cache
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\obj\Debug\Biofarma.AssetManagement.Presentation.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.AssetManagement.Presentation\obj\Debug\Biofarma.AssetManagement.Presentation.pdb

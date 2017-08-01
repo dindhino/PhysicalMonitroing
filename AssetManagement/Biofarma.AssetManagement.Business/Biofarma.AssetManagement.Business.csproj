@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D048420D-8083-43EE-A251-02BD6361A0F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Biofarma.AssetManagement.Business</RootNamespace>
+    <AssemblyName>Biofarma.AssetManagement.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.configuration">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activity\DataManager.cs" />
+    <Compile Include="Activity\Email.cs" />
+    <Compile Include="Activity\PreventiveMaintenance.cs" />
+    <Compile Include="Component\Asset.cs" />
+    <Compile Include="Entity\Dictionary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Workflow\Workflow.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Biofarma.AssetManagement.Data\Biofarma.AssetManagement.Data.csproj">
+      <Project>{6331bd39-5b30-4489-a2e4-245092c90289}</Project>
+      <Name>Biofarma.AssetManagement.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Biofarma.Business\Biofarma.Business.csproj">
+      <Project>{e4a49f93-0289-4088-9cd7-3012958be5bd}</Project>
+      <Name>Biofarma.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Biofarma.Data\Biofarma.Data.csproj">
+      <Project>{5f179eeb-1376-49fd-bdd6-d9c26f925116}</Project>
+      <Name>Biofarma.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Biofarma.Framework.Converter\Biofarma.Framework.Converter.csproj">
+      <Project>{666cd8e7-cd9e-4c56-8022-d34dee705c9f}</Project>
+      <Name>Biofarma.Framework.Converter</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Biofarma.Framework.Entity\Biofarma.Framework.Entity.csproj">
+      <Project>{75bf35cd-944d-4023-94d9-2a12d3a06916}</Project>
+      <Name>Biofarma.Framework.Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Biofarma.Framework.Security\Biofarma.Framework.Security.csproj">
+      <Project>{e65dd8ee-1da9-437a-9541-0cd803f5d7e0}</Project>
+      <Name>Biofarma.Framework.Security</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Biofarma.Service.ActiveDirectory\Biofarma.Service.ActiveDirectory.csproj">
+      <Project>{ab7252fa-2221-4ef4-ad33-2a376ccda22a}</Project>
+      <Name>Biofarma.Service.ActiveDirectory</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Biofarma.Service.ERP\Biofarma.Service.ERP.csproj">
+      <Project>{3b653619-af06-4794-9263-b1693a069bab}</Project>
+      <Name>Biofarma.Service.ERP</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

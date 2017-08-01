@@ -1,0 +1,42 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Business.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Business.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Data.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Framework.Converter.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Framework.Entity.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Data.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Framework.Converter.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Framework.Entity.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\BarcodeLib.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\ThoughtWorks.QRCode.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\obj\Debug\Biofarma.Business.csprojResolveAssemblyReference.cache
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\obj\Debug\Biofarma.Business.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\obj\Debug\Biofarma.Business.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Microsoft.CSharp.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Data.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Drawing.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Web.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Xml.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Xml.Linq.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Business.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Business.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Data.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Framework.Converter.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Framework.Entity.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Data.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Drawing.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Web.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Xml.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\System.Xml.Linq.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Data.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Framework.Converter.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\Biofarma.Framework.Entity.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\BarcodeLib.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\bin\Debug\ThoughtWorks.QRCode.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\obj\Debug\Biofarma.Business.csprojResolveAssemblyReference.cache
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\obj\Debug\Biofarma.Business.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Business\obj\Debug\Biofarma.Business.pdb

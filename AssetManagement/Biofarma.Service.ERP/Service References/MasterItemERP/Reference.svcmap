@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b58e9f2b-c618-4389-be3a-40a29eab1f01" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="xppservice.xsd" MetadataType="Schema" ID="305eda34-e1a6-43a7-b479-c277c67fced3" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?xsd=xsd0" />
+    <MetadataFile FileName="xppservice1.xsd" MetadataType="Schema" ID="76f566ad-3956-4ad3-9cce-6ae2f039fd69" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?xsd=xsd5" />
+    <MetadataFile FileName="xppservice2.xsd" MetadataType="Schema" ID="7ddfa771-1480-4608-94c7-f15cf5098fa6" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?xsd=xsd6" />
+    <MetadataFile FileName="xppservice3.xsd" MetadataType="Schema" ID="89a74952-7c31-47e1-8ce4-16c825dc6291" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?xsd=xsd3" />
+    <MetadataFile FileName="xppservice4.xsd" MetadataType="Schema" ID="f7213751-888a-4dd8-85ef-3734f9d25ed1" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?xsd=xsd4" />
+    <MetadataFile FileName="xppservice5.xsd" MetadataType="Schema" ID="75e27c81-f3e1-4306-9684-a355fcd019ee" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?xsd=xsd1" />
+    <MetadataFile FileName="xppservice6.xsd" MetadataType="Schema" ID="a3fecfe7-43ab-46f2-9080-379f46430d2f" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?xsd=xsd7" />
+    <MetadataFile FileName="RoutingService.wsdl" MetadataType="Wsdl" ID="7397c53a-beb9-4f82-8ee7-e20ac975ecd2" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?wsdl" />
+    <MetadataFile FileName="xppservice.wsdl" MetadataType="Wsdl" ID="968a095e-ab89-4e40-903a-df91f46a05b7" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?wsdl=wsdl1" />
+    <MetadataFile FileName="xppservice1.wsdl" MetadataType="Wsdl" ID="cb63a3e1-7299-455d-be85-0f062711ae20" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="xppservice7.xsd" MetadataType="Schema" ID="7a7ead7e-5567-4a09-9a8b-f3dd88959ac9" SourceId="1" SourceUrl="http://erp-aos-01.biofarma.co.id/MicrosoftDynamicsAXAif60/MasterItem/xppservice.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

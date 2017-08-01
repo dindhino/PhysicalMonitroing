@@ -1,0 +1,26 @@
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\Biofarma.Framework.Security.dll.config
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\Biofarma.Framework.Security.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\Biofarma.Framework.Security.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\obj\Debug\Biofarma.Framework.Security.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\obj\Debug\Biofarma.Framework.Security.pdb
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\Microsoft.CSharp.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.Configuration.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.Data.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.Xml.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.Xml.Linq.dll
+C:\Users\HP\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\obj\Debug\Biofarma.Framework.Security.csprojResolveAssemblyReference.cache
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\Biofarma.Framework.Security.dll.config
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\Biofarma.Framework.Security.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\Biofarma.Framework.Security.pdb
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\Microsoft.CSharp.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.Configuration.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.Data.DataSetExtensions.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.Data.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.Xml.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\bin\Debug\System.Xml.Linq.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\obj\Debug\Biofarma.Framework.Security.csprojResolveAssemblyReference.cache
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\obj\Debug\Biofarma.Framework.Security.dll
+C:\Users\Who Am I\Documents\Visual Studio 2013\Projects\AssetManagement\Biofarma.Framework.Security\obj\Debug\Biofarma.Framework.Security.pdb
